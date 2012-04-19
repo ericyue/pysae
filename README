@@ -1,7 +1,8 @@
 //////////////////////////////////////////////////////
 //
 //    pysae v0.1
-//           a sina app engine sdk with python (not official)
+//           a sina app engine sdk with python 
+//                (not official)
 //    
 //    NOW,ONLY SUPPORT "SEGMENT" AND "SMS"
 //////////////////////////////////////////////////////
