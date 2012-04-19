@@ -1,0 +1,28 @@
+//////////////////////////////////////////////////////
+//
+//    pysae v0.1
+//           a sina app engine sdk with python (not official)
+//    
+//    NOW,ONLY SUPPORT "SEGMENT" AND "SMS"
+//////////////////////////////////////////////////////
+ 
+ author : Eric Yue (http://weibo.com/ericyue)
+ 
+ blog   : www.ericyue.info
+ 
+ email  : hi.moonlight@gmail.com
+
+USAGE:
+    #place the SAE_APIBus.py in your project folder
+        1>from SAE_APIBus import *
+        2>sae=SAE_APIBus('YOUR_ACCESSKEY_HERE','YOUR_SECRETKEY_HERE')
+        3>sae.load('segment') or sae.load('sms')
+        4>if you are using segment service ,then: 
+            sae.setSegmentContent('CONTENT_HERE')
+        4>if you are using sms service,then:
+            sae.setSMS('PHONE_NUMBER','MESSAGE_HERE','UTF-8')
+        5>sae.fetch()
+        6>enjoy it :)
+
+IF THERE IS ANY QUESTIONS ,EMAIL ME OR @ericyue.
+            
