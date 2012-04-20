@@ -17,7 +17,7 @@ POSTAG_ID_B = 20 (line 187)
 区别词
 
 POSTAG_ID_C = 30 (line 192)
-连词
+连词 
 
 POSTAG_ID_C_N = 31 (line 197)
 体词连接

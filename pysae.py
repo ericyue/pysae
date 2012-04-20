@@ -6,8 +6,8 @@
 # email  : hi.moonlight@gmail.com
 #
 # NOW,ONLY SUPPORT "SEGMENT" AND "SMS"
-#
-import json
+# 
+import jso
 import time
 import hmac
 import base64
