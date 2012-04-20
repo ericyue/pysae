@@ -38,16 +38,16 @@ errdesc: ERROR DETAIL INFO
 ==return format:  JSON
 
 ==retrun code defination：
-status	return-detail-en            return-detail-ch              	
-0	    success	                    成功
-600	    internal_error Fetchurl	    内部错误
-601	    no_such_user	            _AccessKey_ 不存在
-602	    auth_error	                认证错误，可能是secretkey 不正确
-603	    out_of_quota	            超出fetchurl 的使用配额
-604	    rest_error	                REST 协议错误，相关的header 不存在或其它错误
-605	    invalid_uri	                _FetchUrl_不是有效的Url
-606	    invalid_host	            _FetchUrl_对应的服务器不可达或者是一个私网地址
-607	    service_not_enabled	        _FetchUrl_对应的扩展服务尚未启用
+status      eturn-detail-en            return-detail-ch              	
+0           success                     成功
+600         internal_error Fetchurl	    内部错误
+601         no_such_user	            _AccessKey_ 不存在
+602         auth_error                  认证错误，可能是secretkey 不正确
+603         out_of_quota	            超出fetchurl 的使用配额
+604         rest_error                  REST 协议错误，相关的header 不存在或其它错误
+605         invalid_uri                 _FetchUrl_不是有效的Url
+606         invalid_host                _FetchUrl_对应的服务器不可达或者是一个私网地址
+607         service_not_enabled         _FetchUrl_对应的扩展服务尚未启用
 
 error examples（JSON）：
 {"ApiBusError":{"errcode":"600","errdesc":"internal_error"}} 
