@@ -4,7 +4,7 @@
 # author : Eric Yue  (http://weibo.com/ericyue)
 # blog   : www.ericyue.info
 # email  : hi.moonlight@gmail.com
-#
+# 
 # NOW,ONLY SUPPORT "SEGMENT" AND "SMS"
 # 
 import jso
